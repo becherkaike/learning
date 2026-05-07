@@ -15,3 +15,34 @@ git add filename.txt or git add Folder/filename.txt   - stage a specific file
 git add *.txt   - stages all files from specific extension in the current directory, excluding deleted ones
 
 git reset   - remove everything from the stage area
+
+git commit -m "Message"     - save the work permanently with a message about what was changed
+
+git reset HEAD~     - undo the last commit
+
+git reset --hard    - restore everything and also deleted files (not sure how to use it yet)
+
+git rm --force filename.txt     - completely delete the file from stage
+
+git rm --cached filename.txt    - only removes it from stage, but keeps localy
+
+git log      - print the all commits 
+
+git log --oneline   - print the commits in a simpler way
+
+git branch    - show how many branches there are
+
+git branc newbranch     - create a new branch
+
+git checkout newbranch      - switch to another branch
+
+git merge newbranch -m      - as in main branch, merge main branch with the newbranch created, as an example
+
+git checkout commit-id      - go back to a previous commit
+
+git diff 1stcommitid 2ndcommitid        - show the differences between the two commits (recent commit id first, older one in second)
+
+/// Push - Sending local changes to the remote
+/// Fetch - Bringing remote changes into your local repository, but nor merging them
+/// Pull - Fetching plus merging-so your working directory immediately reflects the remote changes
+
