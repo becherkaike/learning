@@ -32,7 +32,7 @@ git log --oneline   - print the commits in a simpler way
 
 git branch    - show how many branches there are
 
-git branc newbranch     - create a new branch
+git branch newbranch     - create a new branch
 
 git checkout newbranch      - switch to another branch
 
@@ -47,3 +47,29 @@ git diff 1stcommitid 2ndcommitid        - show the differences between the two c
 /// Pull - Fetching plus merging-so your working directory immediately reflects the remote changes
 
 git push origin main    - send local changes to the remote branch
+
+git restore filename.txt    - restore the file to the previous commit
+
+git restore .   - restore the entire repository to the previous commit
+
+git stash       - temporarily set aside your unfinished work, switch to another branch to do something
+
+git stash pop      - all stashed temporarily work will be back on the branch
+
+Note: moved on to a more basic approach since my objective now is only document my learning and I feel like there is too much information and commands that would only be used by a programmer.
+Willing to learn more about git on the future and while I kept learning to code.
+Video used to get the basics: https://www.youtube.com/watch?v=mAFoROnOfHs
+
+Asked for an advice to AI to how to just document my learning for lectures and projects, saving the commands I'll use more bellow:
+
+git pull        - pull remote changes (before you start working, this avoids that conflict entirely according to AI)
+git status      - detects if there was changes mades in any file
+git add .   - stages files on the directory (current directory, and everything inside it)
+git commit -m "Message"     - save the work permanently with a message about what was changed
+git push origin main    - send local changes to the remote branch
+
+1. git pull — start of the day
+2. ...code...
+3. git add .
+4. git commit -m "message"
+5. git push
