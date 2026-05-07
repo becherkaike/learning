@@ -46,3 +46,4 @@ git diff 1stcommitid 2ndcommitid        - show the differences between the two c
 /// Fetch - Bringing remote changes into your local repository, but nor merging them
 /// Pull - Fetching plus merging-so your working directory immediately reflects the remote changes
 
+git push origin main    - send local changes to the remote branch
