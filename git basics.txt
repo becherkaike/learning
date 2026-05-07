@@ -1,0 +1,17 @@
+git init    - start tracking a project
+
+git clone [link]    - clone a project from a repository
+
+git status      - detects if there was changes mades in any file
+
+git add --all or git add -A     - stages the entire project
+
+git add .   - stages files on the directory (current directory, and everything inside it)
+
+git add *   - stages only new or modified files, not deleted ones - stages all visible changes except for deleted files
+
+git add filename.txt or git add Folder/filename.txt   - stage a specific file
+
+git add *.txt   - stages all files from specific extension in the current directory, excluding deleted ones
+
+git reset   - remove everything from the stage area

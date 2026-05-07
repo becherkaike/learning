@@ -1,0 +1,3 @@
+# This is NOT the first time I use a print...
+
+print("Hi, I'm Kaike. I'll be a programmer soon!")
